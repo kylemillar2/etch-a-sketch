@@ -17,7 +17,10 @@
     flex-basis: 6.25%;
 }
 
-.container > div:hover {
+.container > div:not(.coloured):hover {
     background-color: gray;
 }
 
+.coloured {
+    background-color: black;
+}
